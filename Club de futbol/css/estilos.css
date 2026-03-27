@@ -1,0 +1,64 @@
+/*aca hacemos todo el css*/
+body{
+    font-family: Arial,sans-serif;
+    background-color: blueviolet;
+    color: 0;
+    margin: 0;
+    padding: 0;
+}
+#cabecera-principal{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+     text-transform: uppercase;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a{
+    color: aqua;
+    text-decoration: none;
+}
+.tarjeta{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    display: inline-block;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3 ease;
+} 
+
+.tarjeta:hover{
+    background-color: #f2f2f2;
+}
+
+#html-destacado{
+    border: 3px solid #0055ff;
+}
+
+footer{
+    margin-top: 50px;
+    display: block;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    p{text-align: center;}
+    
+}
+
+p{
+    line-height: 1.8;
+    text-align: justify;
+}
